@@ -1,0 +1,13 @@
+---
+title: TITRE 
+exercice: "CHEMIN"
+baseurl: "PYEXO_URL"
+---
+!!! question "{{ pyexo_titre(exercice) }}"
+    {{ pyexo_enonce(exercice) }}
+
+{{ pyexo(exercice,baseurl) }}
+
+??? tip "Indication"
+    {{ pyexo_indication(exercice) }}
+
